@@ -56,7 +56,7 @@ export default function Component() {
       <div className="flex items-center gap-2 mb-4 pb-4 border-b border-green-900">
         <Terminal className="h-5 w-5" />
         <h1 className="text-lg font-bold">
-          Peek Into Feliz Viernes&apos; Brain
+          Chillpill's Brain 
         </h1>
         <div className="ml-auto flex gap-2">
           <div className="h-3 w-3 rounded-full bg-red-500" />
