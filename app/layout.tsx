@@ -1,6 +1,5 @@
 'use client';
 
-import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import { OneTap, SyncstreamProvider } from "@syncstreamai/syncstream";
@@ -27,7 +26,7 @@ export default function RootLayout({
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <SyncstreamProvider
           campaignId="b8464499-c81c-48e0-82d7-cb6fa1b7d012"
-          signInRequired  // Replace with your actual campaign ID
+          signInRequired
         >
           <OneTap spotifyDefaultLink="spotify:artist:2hlmm7s2ICUX0LVIhVFlZQ"/>
           {children}
