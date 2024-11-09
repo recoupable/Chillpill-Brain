@@ -27,7 +27,7 @@ export default function RootLayout({
         <SyncstreamProvider
           clientId="b8464499-c81c-48e0-82d7-cb6fa1b7d012"
         >
-          <OneTap spotifyDefaultLink="spotify:artist:2hlmm7s2ICUX0LVIhVFlZQ"/>
+          <OneTap spotifyDefaultLink="spotify:artist:1QzqrU2lmiW9l1mSvliVoM"/>
           {children}
         </SyncstreamProvider>
       </body>
