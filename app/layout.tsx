@@ -25,7 +25,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <SyncstreamProvider
-          campaignId="b8464499-c81c-48e0-82d7-cb6fa1b7d012"
+          clientId="b8464499-c81c-48e0-82d7-cb6fa1b7d012"
           signInRequired
         >
           <OneTap spotifyDefaultLink="spotify:artist:2hlmm7s2ICUX0LVIhVFlZQ"/>
